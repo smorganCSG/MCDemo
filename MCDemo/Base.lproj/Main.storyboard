@@ -31,12 +31,20 @@
                                     <segue destination="4IG-ba-cf6" kind="presentation" id="yx0-J6-fGs"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A change" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ek-6V-IXc">
+                                <rect key="frame" x="151" y="220" width="72.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="4M6-6b-G43" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5cc-cp-o1S"/>
                             <constraint firstItem="4M6-6b-G43" firstAttribute="top" secondItem="TZr-ht-U1s" secondAttribute="bottom" constant="16" id="VuV-Fo-cXh"/>
+                            <constraint firstItem="4Ek-6V-IXc" firstAttribute="top" secondItem="4M6-6b-G43" secondAttribute="bottom" constant="32" id="Xxn-s5-wZi"/>
                             <constraint firstItem="TZr-ht-U1s" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jpS-3i-XXe"/>
+                            <constraint firstItem="4Ek-6V-IXc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="t4C-rX-CI9"/>
                             <constraint firstItem="TZr-ht-U1s" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="92" id="wVE-n8-is4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
