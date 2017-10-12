@@ -4,10 +4,15 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-MCDemo.xcscheme_^#shared#^_</key>
+		<key>MobileCenter-MobileCenterDistributeResources.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
+		</dict>
+		<key>Pods-MCDemo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-MCDemoTests.xcscheme</key>
 		<dict>

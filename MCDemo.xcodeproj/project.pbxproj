@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1A01B1D564B41213CDD310A2 /* Pods_MCDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18FED05713D61C1E8861790 /* Pods_MCDemoTests.framework */; };
+		8C00F7B81F8FD64000C8E32B /* SelectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C00F7B71F8FD64000C8E32B /* SelectedViewController.swift */; };
 		8C03BC5F1F8E861600892618 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C03BC5E1F8E861600892618 /* AppDelegate.swift */; };
 		8C03BC611F8E861600892618 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C03BC601F8E861600892618 /* ViewController.swift */; };
 		8C03BC641F8E861600892618 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C03BC621F8E861600892618 /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 		51C0BCE4A8C114B340AFF938 /* Pods-MCDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MCDemoTests/Pods-MCDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		730F808546CB0887664A5289 /* Pods_MCDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MCDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84905C1FFD400BB42B76B0C4 /* Pods-MCDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MCDemo/Pods-MCDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8C00F7B71F8FD64000C8E32B /* SelectedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedViewController.swift; sourceTree = "<group>"; };
 		8C03BC5B1F8E861600892618 /* MCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C03BC5E1F8E861600892618 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C03BC601F8E861600892618 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				8C03BC651F8E861600892618 /* Assets.xcassets */,
 				8C03BC671F8E861600892618 /* LaunchScreen.storyboard */,
 				8C03BC6A1F8E861600892618 /* Info.plist */,
+				8C00F7B71F8FD64000C8E32B /* SelectedViewController.swift */,
 			);
 			path = MCDemo;
 			sourceTree = "<group>";
@@ -361,9 +364,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MCDemo/Pods-MCDemo-resources.sh",
+				"$PODS_CONFIGURATION_BUILD_DIR/MobileCenter/MobileCenterDistributeResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -456,6 +462,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C03BC611F8E861600892618 /* ViewController.swift in Sources */,
+				8C00F7B81F8FD64000C8E32B /* SelectedViewController.swift in Sources */,
 				8C03BC5F1F8E861600892618 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
