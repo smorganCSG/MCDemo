@@ -1,6 +1,0 @@
-framework module Pods_MCDemoUITests {
-  umbrella header "Pods-MCDemoUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
