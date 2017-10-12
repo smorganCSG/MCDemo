@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MobileCenterAnalytics
 
 class ViewController: UIViewController {
 
@@ -20,6 +21,15 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "CHOICE1_SEGUE" {
+            MSAnalytics.trackEvent("Selection", withProperties: ["Category" : "Choice 1"])
+        }
+        
+        if segue.identifier == "CHOICE2_SEGUE" {
+            MSAnalytics.trackEvent("Selection", withProperties: ["Category" : "Choice 2"])
+        }
+    }
+    
 }
 
