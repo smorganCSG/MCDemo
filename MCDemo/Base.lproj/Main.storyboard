@@ -21,14 +21,14 @@
                                 <rect key="frame" x="158" y="112" width="59" height="30"/>
                                 <state key="normal" title="Choice 1"/>
                                 <connections>
-                                    <segue destination="VaQ-wk-38j" kind="presentation" id="VzG-Kh-Sdp"/>
+                                    <segue destination="VaQ-wk-38j" kind="presentation" identifier="CHOICE1_SEGUE" id="VzG-Kh-Sdp"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4M6-6b-G43">
                                 <rect key="frame" x="157" y="158" width="61" height="30"/>
                                 <state key="normal" title="Choice 2"/>
                                 <connections>
-                                    <segue destination="4IG-ba-cf6" kind="presentation" id="yx0-J6-fGs"/>
+                                    <segue destination="4IG-ba-cf6" kind="presentation" identifier="CHOICE2_SEGUE" id="yx0-J6-fGs"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="change number 3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ek-6V-IXc">
