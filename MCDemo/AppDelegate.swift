@@ -11,6 +11,8 @@ import MobileCenter
 import MobileCenterAnalytics
 import MobileCenterCrashes
 import MobileCenterDistribute
+import MobileCenterPush
+
 
 
 
@@ -26,8 +28,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         MSMobileCenter.start("c40379dd-5e1e-4594-b93a-d719fbc7c499", withServices:[
             MSAnalytics.self,
             MSCrashes.self,
-            MSDistribute.self
+            MSDistribute.self,
+            MSPush.self
             ])
+        
+        MSMobileCenter.setLogLevel(MSLogLevel.verbose)
         
         return true
     }
