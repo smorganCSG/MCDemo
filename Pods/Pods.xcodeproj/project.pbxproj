@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -60,49 +60,49 @@
 		1346CFCBB7C418FF98ED790A54FA8120 /* MCLaunch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCLaunch.h; path = VSMobileCenterExtensions/MCLaunch.h; sourceTree = "<group>"; };
 		165FD66B8C4F90A24064CEFDEE425369 /* MCLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MCLabel.m; path = VSMobileCenterExtensions/MCLabel.m; sourceTree = "<group>"; };
 		1C9CAE6C4D997F144C92A7F6AE4B164F /* VSMobileCenterExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VSMobileCenterExtensions-umbrella.h"; sourceTree = "<group>"; };
-		23F4FB94CBFF0F9FF0AF204BCAE79C89 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = "MobileCenter-SDK-Apple/iOS/MobileCenterDistributeResources.bundle/en.lproj"; sourceTree = "<group>"; };
+		23F4FB94CBFF0F9FF0AF204BCAE79C89 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = "MobileCenter-SDK-Apple/iOS/MobileCenterDistributeResources.bundle/en.lproj"; sourceTree = "<group>"; };
 		2C99717DAA2EA8D16F8C62BEB189F166 /* Pods-MCDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MCDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2F5364434C094FAF0474F1C6CABB9801 /* MCLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCLabel.h; path = VSMobileCenterExtensions/MCLabel.h; sourceTree = "<group>"; };
 		379571C1241817FC3517773679AEAAE9 /* Pods-MCDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MCDemoTests-umbrella.h"; sourceTree = "<group>"; };
 		38011ECF0D5AA1EF0BD344F1240D8558 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B3C00431439598CD254B9A9D6415C2A /* Pods-MCDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MCDemo-frameworks.sh"; sourceTree = "<group>"; };
-		3C483723475F7365FF0385AA3FCF1D9B /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = de.lproj; path = "MobileCenter-SDK-Apple/iOS/MobileCenterDistributeResources.bundle/de.lproj"; sourceTree = "<group>"; };
+		3C483723475F7365FF0385AA3FCF1D9B /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = de.lproj; path = "MobileCenter-SDK-Apple/iOS/MobileCenterDistributeResources.bundle/de.lproj"; sourceTree = "<group>"; };
 		3DA182DEC5E08E576635505516EA3F7B /* Pods-MCDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MCDemo.release.xcconfig"; sourceTree = "<group>"; };
 		3FBDD60AB5EC0183A198A13D9A5D7BCE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4038035806EE961B42C14DD7EB70198E /* Pods-MCDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MCDemoTests-dummy.m"; sourceTree = "<group>"; };
 		46153E5431D410482B65D5E859E5AEB5 /* MobileCenterPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenterPush.framework; path = "MobileCenter-SDK-Apple/iOS/MobileCenterPush.framework"; sourceTree = "<group>"; };
 		46D1E82AF811416A887D636445483108 /* Pods-MCDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MCDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		4DEA80E2CFA61DD4DDA8DFE44EA5AF3F /* Pods-MCDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MCDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5282B63F444FCB27FD63DE183F79CA25 /* Pods_MCDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MCDemoTests.framework; path = "Pods-MCDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C5BB0C437D56FE0EB62C56A27FA4B23 /* Pods-MCDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MCDemoTests.modulemap"; sourceTree = "<group>"; };
-		68A9998812A61EF2E168D15A83FEE845 /* Pods-MCDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MCDemoUITests.modulemap"; sourceTree = "<group>"; };
-		6A7D91D1720837160FC22469A776EF85 /* MobileCenterDistributeResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MobileCenterDistributeResources.bundle; path = MobileCenterDistributeResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5282B63F444FCB27FD63DE183F79CA25 /* Pods_MCDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MCDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C5BB0C437D56FE0EB62C56A27FA4B23 /* Pods-MCDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MCDemoTests.modulemap"; sourceTree = "<group>"; };
+		68A9998812A61EF2E168D15A83FEE845 /* Pods-MCDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MCDemoUITests.modulemap"; sourceTree = "<group>"; };
+		6A7D91D1720837160FC22469A776EF85 /* MobileCenterDistributeResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileCenterDistributeResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		729BAD299494F06F331AF14A0DDF5393 /* VSMobileCenterExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VSMobileCenterExtensions.xcconfig; sourceTree = "<group>"; };
 		7454989C99D3340F9D95376F549199D8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CACAA69038E66161970C30848C30734 /* ResourceBundle-MobileCenterDistributeResources-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MobileCenterDistributeResources-Info.plist"; sourceTree = "<group>"; };
 		7F8A95EC5A4FE01C67142541DCF4CC7B /* MobileCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenter.framework; path = "MobileCenter-SDK-Apple/iOS/MobileCenter.framework"; sourceTree = "<group>"; };
-		8285BFCBAA1E60C2B5FAF738E21A87A3 /* VSMobileCenterExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = VSMobileCenterExtensions.modulemap; sourceTree = "<group>"; };
+		8285BFCBAA1E60C2B5FAF738E21A87A3 /* VSMobileCenterExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = VSMobileCenterExtensions.modulemap; sourceTree = "<group>"; };
 		82A2F6047378E850DA0B83DAD4587F36 /* MCLaunch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MCLaunch.m; path = VSMobileCenterExtensions/MCLaunch.m; sourceTree = "<group>"; };
 		85BC70EF8F7E01F5E687B660AB92826B /* Pods-MCDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MCDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8856A00F513A24BC1B10E4269BE42CBC /* Pods-MCDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MCDemo.modulemap"; sourceTree = "<group>"; };
+		8856A00F513A24BC1B10E4269BE42CBC /* Pods-MCDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MCDemo.modulemap"; sourceTree = "<group>"; };
 		8D2F6365AF2BBA5EC31B956C770FA5EA /* MobileCenterDistribute.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenterDistribute.framework; path = "MobileCenter-SDK-Apple/iOS/MobileCenterDistribute.framework"; sourceTree = "<group>"; };
 		8F5388D8CB18F8121BD9A750C42FDAE6 /* Pods-MCDemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MCDemoTests-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97D10CFD2C384B2202946C91524CFB17 /* Pods-MCDemoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MCDemoUITests-resources.sh"; sourceTree = "<group>"; };
-		9E92AC4D5A61E99F2FA913578D6AE30D /* Pods_MCDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MCDemo.framework; path = "Pods-MCDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E92AC4D5A61E99F2FA913578D6AE30D /* Pods_MCDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MCDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F9AD6E7621135BD908602D84E857175 /* Pods-MCDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MCDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
 		AA138DA2416A216A692F4757D27725BB /* Pods-MCDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MCDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		B1B083A57E65F2CB1E049186934DD1A2 /* Pods_MCDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MCDemoUITests.framework; path = "Pods-MCDemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1B083A57E65F2CB1E049186934DD1A2 /* Pods_MCDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MCDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B39C0F8D72993A3A4DF364F8E3E62F06 /* Pods-MCDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MCDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		B6E6FDE3D58F101FAA2595096AA9E345 /* VSMobileCenterExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VSMobileCenterExtensions-dummy.m"; sourceTree = "<group>"; };
 		BCE1568EA25252681A01E51EFDD94AE6 /* Pods-MCDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MCDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C487D6F45624AC54EE8196F5AC7E939A /* VSMobileCenterExtensions-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "VSMobileCenterExtensions-Bridging-Header.h"; path = "VSMobileCenterExtensions/VSMobileCenterExtensions-Bridging-Header.h"; sourceTree = "<group>"; };
-		D5291088ECA34CBD58A33B7D0127B410 /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ru.lproj; path = "MobileCenter-SDK-Apple/iOS/MobileCenterDistributeResources.bundle/ru.lproj"; sourceTree = "<group>"; };
+		D5291088ECA34CBD58A33B7D0127B410 /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ru.lproj; path = "MobileCenter-SDK-Apple/iOS/MobileCenterDistributeResources.bundle/ru.lproj"; sourceTree = "<group>"; };
 		D73F6B8BB4B8E5E3E930810F74900D0C /* VSMobileCenterExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VSMobileCenterExtensions-prefix.pch"; sourceTree = "<group>"; };
-		DA4DE01E0F5E706BE43316555DA6908B /* VSMobileCenterExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VSMobileCenterExtensions.framework; path = VSMobileCenterExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA4DE01E0F5E706BE43316555DA6908B /* VSMobileCenterExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VSMobileCenterExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEE661236748CE37634057D58213F104 /* MobileCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenterAnalytics.framework; path = "MobileCenter-SDK-Apple/iOS/MobileCenterAnalytics.framework"; sourceTree = "<group>"; };
 		E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E601D73D8F4C76E06FEA913EE2824D1B /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fr.lproj; path = "MobileCenter-SDK-Apple/iOS/MobileCenterDistributeResources.bundle/fr.lproj"; sourceTree = "<group>"; };
+		E601D73D8F4C76E06FEA913EE2824D1B /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = fr.lproj; path = "MobileCenter-SDK-Apple/iOS/MobileCenterDistributeResources.bundle/fr.lproj"; sourceTree = "<group>"; };
 		E698D952E9F43B54143270B060A5686E /* VSMobileCenterExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VSMobileCenterExtensions.h; path = VSMobileCenterExtensions/VSMobileCenterExtensions.h; sourceTree = "<group>"; };
 		E8AC14DA16F301CCF181B8CA733473BF /* Pods-MCDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MCDemoUITests-umbrella.h"; sourceTree = "<group>"; };
 		EC0AA3DC09314110E49357A2E9C172BE /* Pods-MCDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MCDemo-dummy.m"; sourceTree = "<group>"; };
@@ -229,7 +229,6 @@
 				578F64D3EFBF144084B15C36749946CA /* Push */,
 				63021F2C590C5A4DC3AE396DA7EFBDAD /* Support Files */,
 			);
-			name = MobileCenter;
 			path = MobileCenter;
 			sourceTree = "<group>";
 		};
@@ -323,7 +322,6 @@
 				C487D6F45624AC54EE8196F5AC7E939A /* VSMobileCenterExtensions-Bridging-Header.h */,
 				E7B2546B0D9A21B6DF4AA8727BC4551C /* Support Files */,
 			);
-			name = VSMobileCenterExtensions;
 			path = VSMobileCenterExtensions;
 			sourceTree = "<group>";
 		};
@@ -550,6 +548,12 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					81EEB37ACA22F970785425D3B5CC9DA9 = {
+						DevelopmentTeam = GAQ2528ADM;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -802,10 +806,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MobileCenter";
+				DEVELOPMENT_TEAM = GAQ2528ADM;
 				INFOPLIST_FILE = "Target Support Files/MobileCenter/ResourceBundle-MobileCenterDistributeResources-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = MobileCenterDistributeResources;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -817,10 +825,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MobileCenter";
+				DEVELOPMENT_TEAM = GAQ2528ADM;
 				INFOPLIST_FILE = "Target Support Files/MobileCenter/ResourceBundle-MobileCenterDistributeResources-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = MobileCenterDistributeResources;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
