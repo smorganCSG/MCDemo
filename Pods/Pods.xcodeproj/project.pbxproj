@@ -449,7 +449,6 @@
 				LastUpgradeCheck = 0700;
 				TargetAttributes = {
 					81EEB37ACA22F970785425D3B5CC9DA9 = {
-						DevelopmentTeam = GAQ2528ADM;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -659,7 +658,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MobileCenter";
-				DEVELOPMENT_TEAM = GAQ2528ADM;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Target Support Files/MobileCenter/ResourceBundle-MobileCenterDistributeResources-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = MobileCenterDistributeResources;
@@ -678,7 +677,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MobileCenter";
-				DEVELOPMENT_TEAM = GAQ2528ADM;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Target Support Files/MobileCenter/ResourceBundle-MobileCenterDistributeResources-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = MobileCenterDistributeResources;
