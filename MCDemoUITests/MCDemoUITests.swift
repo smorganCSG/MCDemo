@@ -34,9 +34,9 @@ class MCDemoUITests: XCTestCase {
     
     func testExample() {
         
-        let app = XCUIApplication()
-        app.buttons["Choice 1"].tap()
-        app.navigationBars["MCDemo.SelectedView"].buttons["Done"].tap()
+//        let app = XCUIApplication()
+//        app.buttons["Choice 1"].tap()
+//        app.navigationBars["MCDemo.SelectedView"].buttons["Done"].tap()
         
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
