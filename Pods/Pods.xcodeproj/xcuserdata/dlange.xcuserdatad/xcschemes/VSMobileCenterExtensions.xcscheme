@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '4F7B538B9E3762933936680D541EBBA8'
+               BlueprintIdentifier = '31412060423F1D559F76745B0A2FB9A2'
                BlueprintName = 'VSMobileCenterExtensions'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'VSMobileCenterExtensions.framework'>
