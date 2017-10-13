@@ -37,6 +37,18 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		8C2BEFA31F91260400ADA37B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		201F9B19BBA398A7D60385B7 /* Pods-MCDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MCDemo/Pods-MCDemo.release.xcconfig"; sourceTree = "<group>"; };
 		3BF7682016285AFA140A3744 /* Pods-MCDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MCDemoTests/Pods-MCDemoTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -59,6 +71,7 @@
 		8C03BC7E1F8E861600892618 /* MCDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCDemoUITests.swift; sourceTree = "<group>"; };
 		8C03BC801F8E861600892618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C2BEF9D1F90D7D800ADA37B /* MCDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MCDemo.entitlements; sourceTree = "<group>"; };
+		8C2BEFA21F91259100ADA37B /* VSMobileCenterExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = VSMobileCenterExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		915239D9F9208F321F325D70 /* Pods_MCDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MCDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F18FED05713D61C1E8861790 /* Pods_MCDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MCDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD6878ACC41740D68F343DBF /* Pods-MCDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MCDemoUITests/Pods-MCDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -163,6 +176,7 @@
 		D0DB725D596AB4754715FC99 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8C2BEFA21F91259100ADA37B /* VSMobileCenterExtensions.framework */,
 				915239D9F9208F321F325D70 /* Pods_MCDemo.framework */,
 				F18FED05713D61C1E8861790 /* Pods_MCDemoTests.framework */,
 				730F808546CB0887664A5289 /* Pods_MCDemoUITests.framework */,
@@ -183,6 +197,7 @@
 				8C03BC591F8E861600892618 /* Resources */,
 				3EB2A1F4CD28638E940E1C82 /* [CP] Embed Pods Frameworks */,
 				2D2DA4E173DF3601BB9469AA /* [CP] Copy Pods Resources */,
+				8C2BEFA31F91260400ADA37B /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -389,9 +404,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MCDemo/Pods-MCDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/VSMobileCenterExtensions/VSMobileCenterExtensions.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VSMobileCenterExtensions.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -452,9 +470,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MCDemoUITests/Pods-MCDemoUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/VSMobileCenterExtensions/VSMobileCenterExtensions.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VSMobileCenterExtensions.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -557,6 +578,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -614,6 +636,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -641,7 +664,9 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = GAQ2528ADM;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MCDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cardinal.MCDemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -661,7 +686,9 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = GAQ2528ADM;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MCDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cardinal.MCDemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";

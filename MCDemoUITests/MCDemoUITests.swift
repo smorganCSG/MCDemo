@@ -7,6 +7,9 @@
 //
 
 import XCTest
+import MobileCenter
+import MobileCoreServices
+import VSMobileCenterExtensions
 
 class MCDemoUITests: XCTestCase {
         
@@ -18,7 +21,7 @@ class MCDemoUITests: XCTestCase {
         // In UI tests it is usually best to stop immediately when a failure occurs.
         continueAfterFailure = false
         // UI tests must launch the application that they test. Doing this in setup will make sure it happens for each test method.
-        XCUIApplication().launch()
+        let app = MCLaunch.launch(XCUIApplication());
 
         // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
     }
@@ -29,6 +32,11 @@ class MCDemoUITests: XCTestCase {
     }
     
     func testExample() {
+        
+        let app = XCUIApplication()
+        app.buttons["Choice 1"].tap()
+        app.navigationBars["MCDemo.SelectedView"].buttons["Done"].tap()
+        
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }

@@ -23,7 +23,8 @@ class ViewController: UIViewController {
     }
     @IBAction func onCrashApp(_ sender: Any) {
         let x = [0]
-        print(x[1])
+    
+        let y = x[1]
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

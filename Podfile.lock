@@ -11,15 +11,18 @@ PODS:
     - MobileCenter/Core
   - MobileCenter/Push (0.13.0):
     - MobileCenter/Core
+  - VSMobileCenterExtensions (0.9.0)
 
 DEPENDENCIES:
   - MobileCenter
   - MobileCenter/Distribute
   - MobileCenter/Push
+  - VSMobileCenterExtensions
 
 SPEC CHECKSUMS:
   MobileCenter: f531f5d7bc3245cf1abb178022b24d968b467280
+  VSMobileCenterExtensions: dd7b96bd7b1495f7af8d3af1bfe286f56757a6af
 
-PODFILE CHECKSUM: faa7942eb9a9f027bb00b5bb393e2c6f015474da
+PODFILE CHECKSUM: 36388d524abcf8de266e7de729b746cfbe091c40
 
 COCOAPODS: 1.3.1
