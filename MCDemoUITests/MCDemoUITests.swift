@@ -21,7 +21,7 @@ class MCDemoUITests: XCTestCase {
         // In UI tests it is usually best to stop immediately when a failure occurs.
         continueAfterFailure = false
         // UI tests must launch the application that they test. Doing this in setup will make sure it happens for each test method.
-        let app = MCLaunch.launch(XCUIApplication());
+        let app = MCLaunch.launch(XCUIApplication())
 
         // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
     }
@@ -33,12 +33,24 @@ class MCDemoUITests: XCTestCase {
     
     func testExample() {
         
-//        let app = XCUIApplication()
-//        app.buttons["Choice 1"].tap()
-//        app.navigationBars["MCDemo.SelectedView"].buttons["Done"].tap()
+        let app = MCLaunch.launch(XCUIApplication())
+       
+        let exists = NSPredicate(format: "exists == true")
+      
         
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        app?.buttons["Choice 1"].tap()
+        
+        // did transition to a correct view
+        let accountInfoPageTitle = app?.staticTexts["You have choosen View 1"]
+        
+        expectation(for: exists, evaluatedWith: accountInfoPageTitle as Any, handler: nil)
+        waitForExpectations(timeout: 5, handler: nil)
+        
+        // exit the view
+        app?.buttons["Done"].tap()
+        let mainPageText = app?.buttons["Choice 1"]
+        expectation(for: exists, evaluatedWith: mainPageText as Any, handler: nil)
+        waitForExpectations(timeout: 5, handler: nil)
     }
     
 }
