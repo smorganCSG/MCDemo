@@ -1,0 +1,6 @@
+#!/bin/bash
+
+rm -rf ddp #remove the derivedDataPath if it exists
+xcrun xcodebuild build-for-testing -configuration Debug -workspace MCDemo.xcworkspace -sdk iphoneos -scheme MCDemo -derivedDataPath ddp
+
+
