@@ -30,7 +30,7 @@ class MCDemoUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
-    
+    /*
     func testExample() {
         
         let app = MCLaunch.launch(XCUIApplication())
@@ -52,5 +52,6 @@ class MCDemoUITests: XCTestCase {
         expectation(for: exists, evaluatedWith: mainPageText as Any, handler: nil)
         waitForExpectations(timeout: 5, handler: nil)
     }
+ */
     
 }
