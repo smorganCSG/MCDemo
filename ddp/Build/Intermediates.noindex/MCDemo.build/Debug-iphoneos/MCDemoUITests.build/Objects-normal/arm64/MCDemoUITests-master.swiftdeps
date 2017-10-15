@@ -1,5 +1,0 @@
-version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
-options: "47bca3690040fcfab7fd4c4a64de6d7c"
-build_time: [1507914835, 680745000]
-inputs:
-  "/Users/dlange/Projects/MCDemo/MCDemoUITests/MCDemoUITests.swift": [1507913929, 0]
