@@ -39,12 +39,6 @@ class MCDemoUITests: XCTestCase {
 
     func testExample() {
         let app = MCLaunch.launch(XCUIApplication())
-    
-//        addUIInterruptionMonitor(withDescription: "Alert Dialog") { (alert) -> Bool in
-//            alert.buttons["Allow"].tap()
-//            return true
-//        }
-        
         let exists = NSPredicate(format: "exists == true")
 
         MCLabel.labelStep("Starting View")
@@ -54,8 +48,8 @@ class MCDemoUITests: XCTestCase {
   
         MCLabel.labelStep("Selected View")
         // did transition to a correct view
-        let accountInfoPageTitle = app?.staticTexts["You have choosen View 1"]
-        expectation(for: exists, evaluatedWith: accountInfoPageTitle as Any, handler: nil)
+        let doneButton = app?.buttons["Done"]
+        expectation(for: exists, evaluatedWith: doneButton as Any, handler: nil)
         waitForExpectations(timeout: 20, handler: nil)
         
         // exit the view
