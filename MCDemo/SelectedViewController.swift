@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import MobileCenterAnalytics
 
 class SelectedViewController: UIViewController {
 

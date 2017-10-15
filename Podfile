@@ -6,10 +6,6 @@ target 'MCDemo' do
   use_frameworks!
 
   # Pods for MCDemo
-    pod 'MobileCenter'
-    pod 'MobileCenter/Distribute'
-    pod 'MobileCenter/Push'
-    
     
   target 'MCDemoTests' do
     inherit! :search_paths
@@ -18,7 +14,6 @@ target 'MCDemo' do
 
   target 'MCDemoUITests' do
     inherit! :search_paths
-    pod 'VSMobileCenterExtensions' 
   end
 
 end
