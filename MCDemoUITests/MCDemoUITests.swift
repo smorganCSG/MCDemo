@@ -39,21 +39,26 @@ class MCDemoUITests: XCTestCase {
 
     func testExample() {
         let app = MCLaunch.launch(XCUIApplication())
-        let exists = NSPredicate(format: "exists == true")
+    
+        addUIInterruptionMonitor(withDescription: "Alert Dialog") { (alert) -> Bool in
+            alert.buttons["Allow"].tap()
+            return true
+        }
         
+        let exists = NSPredicate(format: "exists == true")
+
         MCLabel.labelStep("Starting View")
         // nav to the choice 1 view
         let choic1Button = app?.buttons["Choice 1"]
         choic1Button?.tap()
-        
+  
         MCLabel.labelStep("Selected View")
         // did transition to a correct view
         let accountInfoPageTitle = app?.staticTexts["You have choosen View 1"]
         expectation(for: exists, evaluatedWith: accountInfoPageTitle as Any, handler: nil)
-        waitForExpectations(timeout: 5, handler: nil)
+        waitForExpectations(timeout: 20, handler: nil)
         
         // exit the view
-      
         app?.buttons["Done"].tap()
         let mainPageText = app?.buttons["Choice 1"]
         expectation(for: exists, evaluatedWith: mainPageText as Any, handler: nil)
