@@ -40,10 +40,10 @@ class MCDemoUITests: XCTestCase {
     func testExample() {
         let app = MCLaunch.launch(XCUIApplication())
     
-        addUIInterruptionMonitor(withDescription: "Alert Dialog") { (alert) -> Bool in
-            alert.buttons["Allow"].tap()
-            return true
-        }
+//        addUIInterruptionMonitor(withDescription: "Alert Dialog") { (alert) -> Bool in
+//            alert.buttons["Allow"].tap()
+//            return true
+//        }
         
         let exists = NSPredicate(format: "exists == true")
 
