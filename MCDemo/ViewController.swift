@@ -40,7 +40,7 @@ class ViewController: UIViewController {
     
         //Then just cast the object as a String, but be careful, you may want to double check for nil
         let version = nsObject as! String
-        shortVersionLabel.text = version
+        shortVersionLabel.text = "Version: \(version)"
     }
     
     func getLongBuildNumber() {
@@ -49,7 +49,7 @@ class ViewController: UIViewController {
         
         //Then just cast the object as a String, but be careful, you may want to double check for nil
         let version = nsObject as! String
-        longVersionLabel.text = version
+        longVersionLabel.text = "Build: \(version)"
     }
     
 }
