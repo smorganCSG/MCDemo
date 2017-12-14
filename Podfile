@@ -6,6 +6,7 @@ target 'MCDemo' do
   use_frameworks!
   
   pod 'AppCenter'
+  
 
   # Pods for MCDemo
     
