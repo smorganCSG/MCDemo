@@ -26,8 +26,8 @@ class MCDemoUITests: XCTestCase {
         }
         
         // UI tests must launch the application that they test. Doing this in setup will make sure it happens for each test method.
-        app = ACTLaunch.launch()!;
-        //app = XCUIApplication()
+        //app = ACTLaunch.launch()!;
+        app = XCUIApplication()
         app.launch()
         app.swipeUp()
         
@@ -47,7 +47,7 @@ class MCDemoUITests: XCTestCase {
     
     func testExample() {
         let exists = NSPredicate(format: "exists == true")
-        ACTLabel.labelStep("starting View")
+        //ACTLabel.labelStep("starting View")
         
         // nav to the choice 1 view
         let choic1Button = app.buttons["Choice 1"]
