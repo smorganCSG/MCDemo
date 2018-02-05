@@ -7,6 +7,7 @@
 //
 
 import XCTest
+import AppCenterXCUITestExtensions
 
 class MCDemoUITests: XCTestCase {
     
@@ -26,8 +27,8 @@ class MCDemoUITests: XCTestCase {
         }
         
         // UI tests must launch the application that they test. Doing this in setup will make sure it happens for each test method.
-        //app = ACTLaunch.launch()!;
-        app = XCUIApplication()
+        app = ACTLaunch.launch()!;
+        //app = XCUIApplication()
         app.launch()
         app.swipeUp()
         
@@ -57,14 +58,14 @@ class MCDemoUITests: XCTestCase {
         let doneButton = app.navigationBars.buttons["Done"]
         expectation(for: exists, evaluatedWith: doneButton as Any, handler: nil)
         waitForExpectations(timeout: 20, handler: nil)
-        //ACTLabel.labelStep("Selected View")
+        ACTLabel.labelStep("Selected View")
         
         // exit the view
         app.buttons["Done"].tap()
         let mainPageText = app.buttons["Choice 1"]
         expectation(for: exists, evaluatedWith: mainPageText as Any, handler: nil)
         waitForExpectations(timeout: 5, handler: nil)
-        //ACTLabel.labelStep("Back to main view")
+        ACTLabel.labelStep("Back to main view")
         
     }
     
