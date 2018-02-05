@@ -48,7 +48,7 @@ class MCDemoUITests: XCTestCase {
     
     func testExample() {
         let exists = NSPredicate(format: "exists == true")
-        //ACTLabel.labelStep("starting View")
+        ACTLabel.labelStep("starting View")
         
         // nav to the choice 1 view
         let choic1Button = app.buttons["Choice 1"]
